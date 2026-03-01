@@ -11,12 +11,9 @@ int main() {
 		cin >> length;
 	} while (length <= 0);
 
-	cout << "input one number:";
-	cin >> number;
-
 	user_init(array, length);
-	print("\nCount of non zero elements is ");
-	print(to_string(cout_elements_great_number(array, length, number)) + ".\n");
+	print("\nCount above average number is ");
+	print(to_string(count_above_average(array, length)) + ".\n");
 
 	return 0;
 }

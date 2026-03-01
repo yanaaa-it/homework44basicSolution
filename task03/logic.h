@@ -6,5 +6,4 @@
 
 using namespace std;
 
-int cout_elements_great_number(int array[DEFAULT_SIZE], int length, int number);
-
+int count_above_average(int array[DEFAULT_SIZE], int length);
