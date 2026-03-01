@@ -15,7 +15,7 @@ int main() {
 	cin >> number;
 
 	user_init(array, length);
-	print("\nCount of non zero elements is ");
+	print("\ncount elements of great number is ");
 	print(to_string(cout_elements_great_number(array, length,number))+".\n");
 
 	return 0;
